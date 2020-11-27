@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Making forms</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<script src="js/form.js"></script>
+</head>
+<body>
+	<form name="input type" method="GET" action="http://http://zaedtonmoy.byethost18.com">
+		<fieldset>
+			<legend>Input Type</legend>
+			<label>Name: <input type="text" name="name" placeholder="example"></label><br/>
+			<label>Add Nick-name?: <input type="Checkbox" value="yes" id="nick" onchange="nicky()"></label><br>
+			<div id="nickname">
+				<label><input type="text" id="nake" name="nick"></label><br/>
+			</div>
+
+
+
+
+
+			<label>Email: <input type="Email" id="provide" name="Email" placeholder="example@example.com" required></label><br/>
+			<label>Repeat Email: <input type="Email" id="repeat" name="Email" placeholder="example@example.com" required onchange="check1()"></label><br/>
+			<label>Password: <input type="Password" id="pass" name="Password" required></label><br/>
+			<label>Repeat Password: <input type="Password" id="passr" name="Password"></label><br/>
+			<label>Gender: </label><br/>
+			<label><input type="radio" id="male" value="male" name="Gender" checked="true">Male</label><br/>
+			<label><input type="radio" id="Female" value="Female" name="Gender">Female</label><br/>
+			<label><input type="radio" id="Other" value="Female" name="Gender">Other</label><br/>
+			<label>Checkbox: </label><br/>
+			<label><input type="Checkbox" name="Checkbox">Send by Message</label><br/>
+			<label><input type="Checkbox" name="Checkbox">Send by Email</label><br/>
+			<label>Number: <input type="Number" name="Number"></label><br/>
+			<label>Range: <input type="range" name="range"></label><br/>
+			<label>Color: <input type="color" name="color"></label><br/>
+			<label>Birthday: <input type="date" name="date"></label><br/>
+			<label>URL: <input type="URL" name="URL" placeholder="https://example.com"></label><br/>
+			<label><input type="submit" value="Submit" name="submit" onclick="return check1()"></label>
+		</fieldset>
+	</form>
+</body>
+</html>
